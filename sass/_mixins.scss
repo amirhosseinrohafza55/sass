@@ -1,0 +1,12 @@
+@mixin border($border) {
+    border: $border;
+    -webkit-border:$border;
+    -moz-border:$border;
+    -ms-border:$border;
+}
+@mixin padding($top:10px,$botton:10px) {
+    padding: {
+        top: $top;
+        bottom: $botton;
+    };
+}

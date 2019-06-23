@@ -1,0 +1,91 @@
+@import "../sass/vars";
+@import "../sass/mixins";
+// @mixin float-left{
+// float: left;
+// } 
+* {
+    font-family: $font-family;
+    direction: rtl;
+    color: $font-color;
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: Vazir;
+}
+
+.container {
+    margin-right: 200px !important;
+@include border(1px solid #dddddd);
+    height: 100%;
+}
+
+.banner {
+    @include border(1px solid #dddddd);
+    height: 200px;
+    background: $mein-color;
+}
+
+.col-md-4 {
+    color: white;
+}
+
+.footer {
+
+    background: $mein-color;
+
+}
+
+.container .col-md-4 .row p {
+    $mein-color1: red;
+    color: $mein-color1;
+}
+
+p {
+    color: white;
+}
+
+nav {
+    background: $nav-color;
+     ul{
+         text-align: center;
+         list-style: none;
+        //  padding: {
+        //      top: 20px;
+        //      bottom: 20px;
+        //      left: 5px;
+        //      right: 5px;
+        //  };
+        @include padding(20px,20px);
+         li{
+            display: inline-block;
+            @include padding(20px,20px);
+            &:hover{
+                background: $menu-item-color;
+            }
+         }
+         a{
+             font-size: 20px;
+             
+             &:hover{
+                 text-decoration: none;
+                 font-size: 21px;
+                 font-weight: bold;
+             }
+         }
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

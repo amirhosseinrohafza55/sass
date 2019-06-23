@@ -1,0 +1,58 @@
+* {
+  font-family: "Vazir";
+  direction: rtl;
+  color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: Vazir; }
+
+.container {
+  margin-right: 200px !important;
+  border: 1px solid #dddddd;
+  -webkit-border: 1px solid #dddddd;
+  -moz-border: 1px solid #dddddd;
+  -ms-border: 1px solid #dddddd;
+  height: 100%; }
+
+.banner {
+  border: 1px solid #dddddd;
+  -webkit-border: 1px solid #dddddd;
+  -moz-border: 1px solid #dddddd;
+  -ms-border: 1px solid #dddddd;
+  height: 200px;
+  background: #f3f3f3; }
+
+.col-md-4 {
+  color: white; }
+
+.footer {
+  background: #f3f3f3; }
+
+.container .col-md-4 .row p {
+  color: red; }
+
+p {
+  color: white; }
+
+nav {
+  background: #f5d3a1; }
+  nav ul {
+    text-align: center;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    nav ul li {
+      display: inline-block;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      nav ul li:hover {
+        background: #a5a6a9; }
+    nav ul a {
+      font-size: 20px; }
+      nav ul a:hover {
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
